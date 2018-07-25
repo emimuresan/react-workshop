@@ -7,13 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Install [node](https://nodejs.org/en/download/) then run the following commands:
 
 ```
-git clone https://bitbucket.org/ecris87/react-workshop-v2.git
-cd react-workshop-v2
+git clone https://github.com/ecris87/react-workshop.git
+cd react-workshop
 npm install
 npm start
 ```
 
-After all that the project should be up and running at http://localhost:3000/.
+After that the project should be up and running at http://localhost:3000/.
 
 ## Structure
 

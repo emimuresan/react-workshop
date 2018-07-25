@@ -1,0 +1,58 @@
+{
+  "name": "react-workshop-v2",
+  "version": "0.1.0",
+  "author": {
+    "name": "Emilia Cristea",
+    "email": "emilia.cristea@gmail.com",
+    "url": "https://github.com/ecris87"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "next"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged",
+    "format": "prettier --write 'src/**/*.{js,json,css,scss}'"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.0",
+    "prettier": "1.13.7",
+    "react-test-renderer": "^16.2.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

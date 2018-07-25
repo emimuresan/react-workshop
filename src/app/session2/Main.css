@@ -1,0 +1,9 @@
+.product {
+  border: 1px solid var(--grey-light);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.product__quantity {
+  padding: 10px;
+}

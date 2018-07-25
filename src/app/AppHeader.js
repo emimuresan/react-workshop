@@ -31,7 +31,7 @@ const AppHeader = () => {
       </nav>
       <div className="app-header__item app-info">
         <span>v2.0</span>
-        <a href="https://bitbucket.org/ecris87/react-workshop-v2">
+        <a href="https://github.com/ecris87/react-workshop">
           <span>Repo</span>
           <IconExternalLink className="app-icon" />
         </a>

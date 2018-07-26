@@ -1,6 +1,10 @@
 import React, { PureComponent } from 'react';
 import Shop from './Shop';
 
+/**
+ * Exercises: see Shop.js
+ */
+
 class Main extends PureComponent {
   /**
    * PHASE 1: MOUNTING

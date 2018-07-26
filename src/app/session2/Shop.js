@@ -4,7 +4,7 @@ import ShoppingCart from './ShoppingCart';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 /**
- * Homework
+ * Exercises
  *
  * When a product's quantity is incremented or decremented, update the ShoppingCart.
  * The state properties "numberOfProducts" and "totalPrice" should reflect what the user clicked on.

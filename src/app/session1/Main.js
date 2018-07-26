@@ -2,7 +2,7 @@ import React from 'react';
 import getUser from './getUser';
 
 /**
- * Homework:
+ * Exercises:
  *
  * 1. Extract the h1 and hr tags in a separate functional component called "Title" and use this
  * new component in Main's render. Title should not use an enclosing tag to wrap the 2 elements.
@@ -17,7 +17,7 @@ import getUser from './getUser';
  * 4. In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
  * If the age property is missing from the user object, don't render the second paragraph.
  *
- * For homework 3 and 4, you can run unit tests with "npm test".
+ * For points 3 and 4, you can run unit tests with "npm test".
  *
  */
 

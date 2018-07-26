@@ -2,7 +2,7 @@ import React from 'react';
 import Shop from './Shop';
 
 /**
- * Homework
+ * Exercises: see Shop.js
  */
 
 const Main = () => {

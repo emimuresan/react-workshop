@@ -4,20 +4,18 @@ import getUser from './getUser';
 /**
  * Exercises:
  *
- * 1. Extract the h1 and hr tags in a separate functional component called "Title" and use this
+ * 1. Extract the h1 and hr tags in a separate component called "Title" and use this
  * new component in Main's render. Title should not use an enclosing tag to wrap the 2 elements.
  *
- * 2. Convert Main from a functional component to a class component.
- *
- * 3. Render each property of the user object returned by "getUser" in a separate paragraph.
- * Should look like this:
+ * 2. Render each property of the user object returned by "getUser" in a separate paragraph.
+ * The name should be in uppercase letters. Overall it should look like this:
  * Name: JOHN SMITH
  * Age: 27
  *
- * 4. In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
+ * 3. In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
  * If the age property is missing from the user object, don't render the second paragraph.
  *
- * For points 3 and 4, you can run unit tests with "npm test".
+ * For points 2 and 3, you can run unit tests with "npm test".
  *
  */
 

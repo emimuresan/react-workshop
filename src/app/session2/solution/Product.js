@@ -6,7 +6,7 @@ class Product extends React.Component {
   static propTypes = {
     name: PropTypes.string,
     price: PropTypes.number,
-    updateShoppingCart: PropTypes.func
+    updateShoppingCart: PropTypes.func.isRequired
   };
 
   static defaultProps = {

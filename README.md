@@ -42,17 +42,16 @@ npm test
 
 #### Exercises
 
-> 1. Extract the h1 and hr tags in a separate functional component called "Title" and use this new component in Main's render. Title should not use an enclosing tag to wrap the 2 elements.
-> 2. Convert Main from a functional component to a class component.
-> 3. Render each property of the user object returned by "getUser" in a separate paragraph (p tag).
-> 
+> 1.  Extract the h1 and hr tags in a separate component called "Title" and use this new component in Main's render. Title should not use an enclosing tag to wrap the 2 elements.
+> 2.  Render each property of the user object returned by "getUser" in a separate paragraph (p tag).
+>
 > It should look like this:
 >
 >     Name: JOHN SMITH
 >     Age: 27
 >
-> 4. In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
-> If the age property is missing from the user object, don't render the second paragraph.
+> 3.  In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
+>     If the age property is missing from the user object, don't render the second paragraph.
 
 ## Session 2
 
@@ -85,7 +84,7 @@ npm test
 
 #### Exercises
 
-> 1. Make a GET request to the URL above using axios and apply this.formatData to the response.
-> 2. Use conditional rendering to display the Loading component while the data is being fetched and, once the data has loaded, display a Product component for each data item.
-> 3. When a product's quantity is incremented or decremented, update the ShoppingCart.
-> The state properties "numberOfProducts" and "totalPrice" should reflect what the user clicked on.
+> 1.  Make a GET request to the URL above using axios and apply this.formatData to the response.
+> 2.  Use conditional rendering to display the Loading component while the data is being fetched and, once the data has loaded, display a Product component for each data item.
+> 3.  When a product's quantity is incremented or decremented, update the ShoppingCart.
+>     The state properties "numberOfProducts" and "totalPrice" should reflect what the user clicked on.

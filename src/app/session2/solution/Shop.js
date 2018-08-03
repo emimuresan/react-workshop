@@ -15,10 +15,10 @@ class Shop extends React.Component {
     this.updateShoppingCart = this.updateShoppingCart.bind(this);
   }
 
-  updateShoppingCart(quantity, price) {
+  updateShoppingCart(increment, price) {
     this.setState(prevState => ({
-      numberOfProducts: prevState.numberOfProducts + quantity,
-      totalPrice: prevState.totalPrice + quantity * price
+      numberOfProducts: prevState.numberOfProducts + increment,
+      totalPrice: prevState.totalPrice + increment * price
     }));
   }
 

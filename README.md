@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Install [node](https://nodejs.org/en/download/) then run the following commands:
 
 ```
-git clone https://github.com/ecris87/react-workshop.git
+git clone https://github.com/emimuresan/react-workshop.git
 cd react-workshop
 npm install
 npm start

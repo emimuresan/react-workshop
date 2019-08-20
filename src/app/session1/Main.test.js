@@ -6,7 +6,7 @@ import { shallow } from 'enzyme';
 
 jest.mock('./getUser');
 
-describe('Session1: Main', () => {
+describe('Session1', () => {
   describe('user is logged-in', () => {
     it('should render user name', () => {
       getUser.mockReturnValue({

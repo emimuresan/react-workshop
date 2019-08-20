@@ -14,11 +14,12 @@ class Product extends React.Component {
     price: 0
   };
 
+  state = {
+    quantity: 0
+  };
+
   constructor(props) {
     super(props);
-    this.state = {
-      quantity: 0
-    };
 
     this.increment = this.updateQuantity.bind(this, 1);
     this.decrement = this.updateQuantity.bind(this, -1);

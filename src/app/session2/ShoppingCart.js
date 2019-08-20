@@ -3,9 +3,8 @@ import PropTypes from 'prop-types';
 
 /**
  * Functional component
- * no state!
- * no lifecycle!
- * only props
+ * previously: no state! no lifecycle! only props!
+ * but now we can make use of state and effects by using hooks
  */
 
 const ShoppingCart = ({ numberOfProducts, totalPrice }) => (

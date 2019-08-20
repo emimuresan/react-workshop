@@ -6,6 +6,11 @@ import Shop from './Shop';
  */
 
 class Main extends PureComponent {
+  state = {
+    date: new Date(),
+    randomNumber: 0
+  };
+
   /**
    * PHASE 1: MOUNTING
    * These lifecyle hooks will be executed once
@@ -13,11 +18,6 @@ class Main extends PureComponent {
   constructor(props) {
     super(props);
     console.log('constructor');
-
-    this.state = {
-      date: new Date(),
-      randomNumber: 0
-    };
   }
 
   // initial render would happen here (by convention the render method is implemented below, after the lifecycle hooks)
@@ -70,8 +70,8 @@ class Main extends PureComponent {
         <hr />
 
         <h2>
-          <span>Example: Online shop</span>
-          <span>{this.state.randomNumber}</span>
+          <span>Example: Online shop </span>
+          <span>number {this.state.randomNumber}</span>
         </h2>
         <h3>Current Date {this.state.date.toLocaleTimeString()}</h3>
 

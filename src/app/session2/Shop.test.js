@@ -6,7 +6,7 @@ import Product from './Product';
 import ShoppingCart from './ShoppingCart';
 import { shallow, mount } from 'enzyme';
 
-describe('Session2: Shop', () => {
+describe('Session2', () => {
   let shopWrapper;
 
   /**

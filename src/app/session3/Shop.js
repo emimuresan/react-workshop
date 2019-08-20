@@ -16,6 +16,8 @@ const URL = 'https://api.predic8.de:443/shop/products/';
  * has loaded, display a Product component for each data item.
  * 3. When a product's quantity is incremented or decremented, update the ShoppingCart.
  * The state properties "numberOfProducts" and "totalPrice" should reflect what the user clicked on.
+ *
+ * Run unit tests with: `npm test "Session3"`
  */
 
 class Shop extends React.Component {

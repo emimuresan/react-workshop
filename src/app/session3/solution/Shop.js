@@ -9,17 +9,11 @@ import SimpleGrid from 'app/session3/components/SimpleGrid';
 const URL = 'https://api.predic8.de:443/shop/products/';
 
 class Shop extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      numberOfProducts: 0,
-      totalPrice: 0,
-      products: null
-    };
-
-    this.updateShoppingCart = this.updateShoppingCart.bind(this);
-  }
+  state = {
+    numberOfProducts: 0,
+    totalPrice: 0,
+    products: null
+  };
 
   componentDidMount() {
     axios
@@ -49,12 +43,12 @@ class Shop extends React.Component {
     });
   }
 
-  updateShoppingCart(quantity, price) {
+  updateShoppingCart = (quantity, price) => {
     this.setState(prevState => ({
       numberOfProducts: prevState.numberOfProducts + quantity,
       totalPrice: prevState.totalPrice + quantity * price
     }));
-  }
+  };
 
   renderProducts() {
     return !this.state.products ? (

@@ -15,7 +15,7 @@ import getUser from './getUser';
  * 3. In the first paragraph render "Anonymous" if the user is not logged-in, otherwise render name.
  * If the age property is missing from the user object, don't render the second paragraph.
  *
- * For points 2 and 3, you can run unit tests with "npm test".
+ * For points 2 and 3, you can run unit tests with: `npm test "Session1"`
  *
  */
 

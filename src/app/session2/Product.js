@@ -13,11 +13,12 @@ class Product extends React.PureComponent {
     price: 0
   };
 
+  state = {
+    quantity: 0
+  };
+
   constructor(props) {
     super(props);
-    this.state = {
-      quantity: 0
-    };
 
     this.increment = this.updateQuantity.bind(this, 1);
     this.decrement = this.updateQuantity.bind(this, -1);
@@ -35,13 +36,6 @@ class Product extends React.PureComponent {
       //   console.log('quantity after:', this.state.quantity);
       // }
     );
-
-    // ES5:
-    // this.setState(function(prevState) {
-    //   return {
-    //     quantity: prevState.quantity + inc
-    //   };
-    // });
   }
 
   render() {

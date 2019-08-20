@@ -4,23 +4,17 @@ import ShoppingCart from 'app/session2/ShoppingCart';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Shop extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    numberOfProducts: 0,
+    totalPrice: 0
+  };
 
-    this.state = {
-      numberOfProducts: 0,
-      totalPrice: 0
-    };
-
-    this.updateShoppingCart = this.updateShoppingCart.bind(this);
-  }
-
-  updateShoppingCart(increment, price) {
+  updateShoppingCart = (increment, price) => {
     this.setState(prevState => ({
       numberOfProducts: prevState.numberOfProducts + increment,
       totalPrice: prevState.totalPrice + increment * price
     }));
-  }
+  };
 
   render() {
     return (

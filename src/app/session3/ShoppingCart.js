@@ -1,13 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-/**
- * Functional component
- * no state!
- * no lifecycle!
- * only props
- */
-
 const ShoppingCart = ({ numberOfProducts, totalPrice }) => (
   <div className="shopping-cart">
     <p>
@@ -18,12 +11,6 @@ const ShoppingCart = ({ numberOfProducts, totalPrice }) => (
     </p>
   </div>
 );
-// equivalent code:
-// function ShoppingCart(props) {
-//   return (
-//      <div className="shopping-cart">...
-//   );
-// }
 
 ShoppingCart.propTypes = {
   numberOfProducts: PropTypes.number,
